@@ -23,9 +23,18 @@ BULLETTRAIN_PROMPT_ORDER=(
   cmd_exec_time
 )
 
+# Python
 BULLETTRAIN_VIRTUALENV_FG=black
 
+# dir
+BULLETTRAIN_DIR_EXTENDED=2
+
+# execution
 BULLETTRAIN_EXEC_TIME_BG=green
+
+# git
+BULLETTRAIN_GIT_COLORIZE_DIRTY=true
+# BULLETTRAIN_GIT_BG=green
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
