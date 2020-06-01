@@ -30,7 +30,7 @@ BULLETTRAIN_VIRTUALENV_FG=black
 BULLETTRAIN_DIR_EXTENDED=2
 
 # execution
-BULLETTRAIN_EXEC_TIME_BG=green
+#BULLETTRAIN_EXEC_TIME_BG=green
 
 # git
 BULLETTRAIN_GIT_COLORIZE_DIRTY=true
@@ -123,3 +123,11 @@ export EDITOR='nvim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:~/.local/bin
 
+# enable exceptions
+setopt extendedglob
+
+# neovim path
+export PATH=$PATH:/usr/bin/nvim
+
+# alias for ls to show dirs before
+alias ls='ls --group-directories-first --color=auto'
